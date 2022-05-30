@@ -14,7 +14,7 @@ You need [Visual Studio Code](https://code.visualstudio.com/) and the [Remote Co
 ## First steps
 
 1. Download Wordpress with `wp core download` (https://developer.wordpress.org/cli/commands/core/download/)
-   - Add `--local=de_CH` or another prefered locale
+   - Add `--locale=de_CH` or another prefered locale
    - Add `--version=6.0` or another prefered version
 1. Start PHP server with `php -S localhost:8080`
 1. Set up Wordpress
