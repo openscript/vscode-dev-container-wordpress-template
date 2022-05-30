@@ -21,7 +21,7 @@ You need [Visual Studio Code](https://code.visualstudio.com/) and the [Remote Co
    - Via CLI
      1. Generate a config file with `wp config create --dbname=wordpress --dbuser=root --dbpass=mariadb --dbhost=db`
      1. Create database with `wp db create`
-     1. Install Wordpress with `wp core install --url=localhost:8080 --title=Example --admin_user=example --admin_password=example123 --admin_email=example@example.com`
+     1. Install Wordpress with `wp core install --url=localhost:8080 --title=Example --admin_user=example --admin_password=example123 --admin_email=example@example.com` or import a database dump file with `wp db import wordpress.sql`
    - Via Browser
      1. Open PHPMyAdmin at http://localhost:8081 in your browser
      1. Create a database `wordpress` with `utf8_general_ci` as charset
